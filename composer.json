@@ -1,0 +1,29 @@
+{
+    "name": "sorbing/laravel-blade-bootstrap",
+    "description": "Laravel 5.6 Bootstrap 4 UI components",
+    "keywords": ["laravel 5", "bootstrap 4", "blade", "components", "ui"],
+    "authors": [
+        {
+            "name": "Stanislav Butsenko",
+            "email": "svbutsenko@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/contracts": "5.5.*|5.6.*",
+        "illuminate/support": "5.5.*|5.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sorbing\\LaravelBladeBootstrap\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sorbing\\LaravelBladeBootstrap\\BootstrapComponentsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
